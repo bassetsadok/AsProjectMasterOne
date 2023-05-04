@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Menu.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +12,9 @@ const Menu = () => {
 
   return (
     <div className="menu">
-      <button onClick={toggleMenu}>{isOpen ? 'Close' : 'Open'} Menu</button>
+      <button onClick={toggleMenu}>
+        <FontAwesomeIcon icon={faBars} />
+      </button>
       {isOpen && (
         <ul>
           {/* Add your menu items here */}

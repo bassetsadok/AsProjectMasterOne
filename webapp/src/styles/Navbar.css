@@ -12,3 +12,7 @@
     text-decoration: underline;
   }
   
+  .navbar a svg {
+    margin-right: 5px;
+  }
+  
