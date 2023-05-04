@@ -1,10 +1,14 @@
 .user-info {
     flex: 1;
     margin-right: 10px;
+    background-color: #93c572;
+    border-radius: 5px;
+    padding: 20px;
   }
   
   .user-info input {
     display: block;
+    box-sizing: border-box;
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
