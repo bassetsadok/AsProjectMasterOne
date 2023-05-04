@@ -1,0 +1,19 @@
+.user-profile {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  

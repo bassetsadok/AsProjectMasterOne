@@ -1,0 +1,12 @@
+.user-info {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .user-info input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
